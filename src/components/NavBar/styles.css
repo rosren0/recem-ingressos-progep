@@ -1,0 +1,54 @@
+header {
+    background-color: #f3931c;
+    box-shadow: 0 3px 7px rgb (0, 0, 0, .25);
+}
+
+#mars-logo{
+
+    max-width: 40px;
+}
+
+header nav#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: 90px;
+
+}
+
+header nav#navbar .nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+
+}
+
+header nav#navbar .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    list-style: none;
+
+}
+
+
+header nav#navbar .nav-list li a {
+   color: #fff;
+   font: 1.1rem;
+   text-decoration: none;
+
+   transition: color 0.5s;
+
+}
+
+header nav#navbar .nav-list li a:hover {
+    color: #283166;
+    transition: color 0.5s;
+ 
+ }

@@ -1,0 +1,29 @@
+/* src/Card.css */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    /* border: 1px solid #ccc; */
+    border-radius: 20px;
+    padding: 16px;
+    margin: 16px;
+
+    width: 25rem;
+    height: 18rem;
+
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 5px;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card-footer {
+    margin-top: 16px;
+    text-align: right;
+  }
+  
